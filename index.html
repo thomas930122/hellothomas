@@ -1,0 +1,377 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en" class="scroll-smooth"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;title&gt;Thomas Hsieh | 謝鎰丞 — Media, Brand &amp; Creative Strategist&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 引入 Tailwind CSS --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 引入 Google Fonts: Inter 與 Noto Sans TC --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;link rel="preconnect" href="https://fonts.googleapis.com"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;link rel="preconnect" href="https://fonts.gstatic.com" crossorigin&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Noto+Sans+TC:wght@300;400;500;700&amp;display=swap" rel="stylesheet"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>tailwind.config = {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>theme: {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>extend: {</p>
+<p class="p1"><span class="Apple-converted-space">          </span>fontFamily: {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>sans: ['Inter', 'Noto Sans TC', 'sans-serif'],</p>
+<p class="p1"><span class="Apple-converted-space">          </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">      </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>background-color: #FAFAFA;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>color: #111111;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>.project-card:hover .project-arrow {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>transform: translate(4px, -4px);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body class="antialiased selection:bg-black selection:text-white"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 頂部導覽列 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;header class="fixed top-0 left-0 right-0 z-50 bg-[#FAFAFA]/85 backdrop-blur-md border-b border-neutral-200"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;a href="#" class="font-semibold tracking-tight text-lg"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>THOMAS HSIEH &lt;span class="text-neutral-400 font-normal text-sm ml-1"&gt;謝鎰丞&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="flex items-center gap-6 text-sm font-medium"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#work" class="hover:text-neutral-500 transition-colors" data-en="Work" data-zh="精選專案"&gt;Work&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#experience" class="hover:text-neutral-500 transition-colors" data-en="Experience" data-zh="實戰經歷"&gt;Experience&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#education" class="hover:text-neutral-500 transition-colors" data-en="Education" data-zh="學歷與技能"&gt;Education&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#contact" class="hover:text-neutral-500 transition-colors" data-en="Contact" data-zh="聯絡"&gt;Contact&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;button id="lang-btn" onclick="toggleLang()" class="px-2.5 py-1 text-xs border border-neutral-300 rounded-full hover:border-black transition-colors"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>中 / EN</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/header&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;main class="max-w-5xl mx-auto px-6 pt-32 pb-24"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Hero 個人主視覺區 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section class="py-12 md:py-20 border-b border-neutral-200"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neutral-200/70 text-xs font-medium mb-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;span class="w-2 h-2 rounded-full bg-emerald-500"&gt;&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;span data-en="Available for Media, PR &amp; Creative Roles" data-zh="開放媒體製作、品牌公關與創意策略合作"&gt;Available for Media, PR &amp; Creative Roles&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;h1 class="text-4xl md:text-6xl font-semibold tracking-tight leading-[1.15] mb-6"<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">          </span>data-en="Bridging journalism, cultural insights, and AI-driven media production."<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">          </span>data-zh="結合新聞敘事、文化創意洞察與 AI 驅動的跨域媒體製作。"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>Bridging journalism, cultural insights, and AI-driven media production.</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/h1&gt;</p>
+<p class="p2"><span class="Apple-converted-space">      </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;p class="text-lg md:text-xl text-neutral-600 max-w-3xl leading-relaxed mb-10 font-light"</p>
+<p class="p1"><span class="Apple-converted-space">         </span>data-en="I am Thomas Hsieh (謝鎰丞), a Creative Strategist &amp; Multimedia Producer holding an MA in Culture and Creative Industries from the University of Sussex and a BA in Journalism. Experienced in cross-platform video production, brand incubation, and digital communications across the UK and Asia."</p>
+<p class="p1"><span class="Apple-converted-space">         </span>data-zh="我是謝鎰丞（Thomas Hsieh），擁有英國薩塞克斯大學（University of Sussex）文化創意產業碩士與中國文化大學新聞學系雙聯學位。專精於跨平台影音製作、品牌孵化、大型活動策劃與 AI 媒體研究，具備橫跨英國與亞洲的實戰傳播經驗。"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>I am Thomas Hsieh (謝鎰丞), a Creative Strategist &amp; Multimedia Producer holding an MA in Culture and Creative Industries from the University of Sussex and a BA in Journalism. Experienced in cross-platform video production, brand incubation, and digital communications across the UK and Asia.</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="flex flex-wrap gap-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#work" class="px-6 py-3 bg-black text-white text-sm font-medium rounded-full hover:bg-neutral-800 transition-colors"</p>
+<p class="p1"><span class="Apple-converted-space">           </span>data-en="View Selected Works" data-zh="瀏覽精選作品"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>View Selected Works</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;a href="#contact" class="px-6 py-3 border border-neutral-300 text-sm font-medium rounded-full hover:border-black transition-colors"</p>
+<p class="p1"><span class="Apple-converted-space">           </span>data-en="Get in Touch" data-zh="與我聯繫"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>Get in Touch</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Selected Work 精選專案作品集 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="work" class="py-16 border-b border-neutral-200"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="flex items-baseline justify-between mb-12"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2 class="text-2xl font-semibold tracking-tight" data-en="Selected Projects" data-zh="精選專案作品"&gt;Selected Projects&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;span class="text-xs text-neutral-400 uppercase tracking-widest"&gt;01 / PORTFOLIO&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="grid grid-cols-1 md:grid-cols-2 gap-8"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Project 1: EYECORN --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;article class="project-card group bg-white border border-neutral-200 rounded-2xl p-7 hover:border-black transition-all flex flex-col justify-between"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="flex items-center justify-between text-xs text-neutral-500 mb-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span class="font-medium text-black"&gt;BRAND &amp; E-COMMERCE&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span&gt;2026&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3 class="text-xl font-semibold mb-3 flex items-center justify-between"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span data-en="EYECORN — Reusable Eyelash Brand" data-zh="EYECORN — 永續重複使用假睫毛品牌"&gt;EYECORN — Reusable Eyelash Brand&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span class="project-arrow transition-transform text-neutral-400 group-hover:text-black"&gt;↗&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-sm text-neutral-600 leading-relaxed mb-6"</p>
+<p class="p1"><span class="Apple-converted-space">               </span>data-en="Developed an innovative beauty e-commerce brand featuring reusable false eyelashes housed in customizable retro cassette-style packaging cases. Led brand positioning, packaging visuals, and digital go-to-market strategy."</p>
+<p class="p1"><span class="Apple-converted-space">               </span>data-zh="從零孵化美妝電商品牌，主打可重複使用的環保假睫毛，並結合可客製化的「復古卡帶盒」包裝設計。主導品牌定位、視覺識別系統與數位上市行銷策略。"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>Developed an innovative beauty e-commerce brand featuring reusable false eyelashes housed in customizable retro cassette-style packaging cases. Led brand positioning, packaging visuals, and digital go-to-market strategy.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="flex flex-wrap gap-2 pt-4 border-t border-neutral-100 text-xs text-neutral-500"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="px-2.5 py-1 bg-neutral-100 rounded-md"&gt;Brand Strategy&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="px-2.5 py-1 bg-neutral-100 rounded-md"&gt;Packaging Design&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="px-2.5 py-1 bg-neutral-100 rounded-md"&gt;E-Commerce&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/article&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Project 2: Species Stories / Writing Our Legacy --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;article class="project-card group bg-white border border-neutral-200 rounded-2xl p-7 hover:border-black transition-all flex flex-col justify-between"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="flex items-center justify-between text-xs text-neutral-500 mb-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span class="font-medium text-black"&gt;ARTS &amp; EXHIBITION DESIGN&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span&gt;2026 · UK&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3 class="text-xl font-semibold mb-3 flex items-center justify-between"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span data-en="&amp;quot;Species Stories&amp;quot; Exhibition &amp; Media" data-zh="英国《Species Stories》展覽視覺與傳播"&gt;“Species Stories” Exhibition &amp; Media&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span class="project-arrow transition-transform text-neutral-400 group-hover:text-black"&gt;↗&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-sm text-neutral-600 leading-relaxed mb-6"</p>
+<p class="p1"><span class="Apple-converted-space">               </span>data-en="Designed the 850×2000mm exhibition pull-up banner layout and multimedia collateral in collaboration with Writing Our Legacy and the South Downs National Park Authority, alongside an auto-ethnographic industry portfolio."</p>
+<p class="p1"><span class="Apple-converted-space">               </span>data-zh="與英國藝文組織 Writing Our Legacy 及 South Downs 國家公園管理局合作，設計 850×2000mm 展覽視覺展架與多媒體宣傳素材，並完成 5,000 字產業民族誌研究。"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>Designed the 850×2000mm exhibition pull-up banner layout and multimedia collateral in collaboration with Writing Our Legacy and the South Downs National Park Authority, alongside an auto-ethnographic industry portfolio.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="flex flex-wrap gap-2 pt-4 border-t border-neutral-100 text-xs text-neutral-500"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="px-2.5 py-1 bg-neutral-100 rounded-md"&gt;Visual Communication&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="px-2.5 py-1 bg-neutral-100 rounded-md"&gt;Arts PR&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="px-2.5 py-1 bg-neutral-100 rounded-md"&gt;Print Layout&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/article&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Project 3: PeoPo 1st Place &amp; NSTC AI Research --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;article class="project-card group bg-white border border-neutral-200 rounded-2xl p-7 hover:border-black transition-all flex flex-col justify-between"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="flex items-center justify-between text-xs text-neutral-500 mb-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span class="font-medium text-black"&gt;AI JOURNALISM &amp; RESEARCH&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span&gt;2024 – 2026&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3 class="text-xl font-semibold mb-3 flex items-center justify-between"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span data-en="AI Trust in Media &amp; PeoPo 1st Place" data-zh="國科會 AI 新聞研究 ＆ PeoPo 全國首獎"&gt;AI Trust in Media &amp; PeoPo 1st Place&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span class="project-arrow transition-transform text-neutral-400 group-hover:text-black"&gt;↗&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-sm text-neutral-600 leading-relaxed mb-6"</p>
+<p class="p1"><span class="Apple-converted-space">               </span>data-en="Won 1st Place nationwide in the PeoPo Short Video Competition examining AI trust and digital access. Served as NSTC Research Assistant interviewing media professionals on generative AI workflows in newsrooms."</p>
+<p class="p1"><span class="Apple-converted-space">               </span>data-zh="以探討「AI 信任與新聞近用權」之影音作品榮獲 2024 PeoPo 公民新聞短影音競賽全國第一名；同時擔任國科會（NSTC）研究助理，深度訪談業界專家剖析 AI 於新聞產製之應用。"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>Won 1st Place nationwide in the PeoPo Short Video Competition examining AI trust and digital access. Served as NSTC Research Assistant interviewing media professionals on generative AI workflows in newsrooms.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="flex flex-wrap gap-2 pt-4 border-t border-neutral-100 text-xs text-neutral-500"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="px-2.5 py-1 bg-neutral-100 rounded-md"&gt;1st Place Winner&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="px-2.5 py-1 bg-neutral-100 rounded-md"&gt;NSTC Research&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="px-2.5 py-1 bg-neutral-100 rounded-md"&gt;Short-Form Video&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/article&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Project 4: 16th Golden Anchor Competition --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;article class="project-card group bg-white border border-neutral-200 rounded-2xl p-7 hover:border-black transition-all flex flex-col justify-between"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="flex items-center justify-between text-xs text-neutral-500 mb-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span class="font-medium text-black"&gt;EVENT PRODUCTION &amp; LEADERSHIP&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span&gt;TVBS COLLABORATION&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3 class="text-xl font-semibold mb-3 flex items-center justify-between"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span data-en="16th National Golden Anchor Competition" data-zh="第16屆全國大專院校金牌主播大賽"&gt;16th National Golden Anchor Competition&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;span class="project-arrow transition-transform text-neutral-400 group-hover:text-black"&gt;↗&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-sm text-neutral-600 leading-relaxed mb-6"</p>
+<p class="p1"><span class="Apple-converted-space">               </span>data-en="Organized and executed the 16th National Golden Anchor Competition in partnership with TVBS network, alongside leading four major campus media outlets (TV, Radio, Weekly Press, and Jourmedia Center)."</p>
+<p class="p1"><span class="Apple-converted-space">               </span>data-zh="與 TVBS 電視台合作籌辦第16屆全國大專院校金牌主播大賽，統籌賽事企劃與跨校宣傳；在學期間亦擔任華岡電台、電視台、融媒體台長與《文化一周》總編輯。"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>Organized and executed the 16th National Golden Anchor Competition in partnership with TVBS network, alongside leading four major campus media outlets (TV, Radio, Weekly Press, and Jourmedia Center).</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="flex flex-wrap gap-2 pt-4 border-t border-neutral-100 text-xs text-neutral-500"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="px-2.5 py-1 bg-neutral-100 rounded-md"&gt;Event Management&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="px-2.5 py-1 bg-neutral-100 rounded-md"&gt;Broadcast Media&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="px-2.5 py-1 bg-neutral-100 rounded-md"&gt;Public Relations&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/article&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Experience 實戰經歷 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="experience" class="py-16 border-b border-neutral-200"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="flex items-baseline justify-between mb-12"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h2 class="text-2xl font-semibold tracking-tight" data-en="Experience &amp; Leadership" data-zh="實戰與領導經歷"&gt;Experience &amp; Leadership&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;span class="text-xs text-neutral-400 uppercase tracking-widest"&gt;02 / TIMELINE&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="space-y-10"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Role 1 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="text-sm text-neutral-500 font-medium"&gt;2026 · Brighton, UK&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="md:col-span-3"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3 class="text-lg font-semibold" data-en="Arts Communications &amp; Design Contractor — Writing Our Legacy" data-zh="藝文傳播與視覺設計（實習與專案合作）— 英國 Writing Our Legacy"&gt;Arts Communications &amp; Design Contractor — Writing Our Legacy&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-sm text-neutral-600 mt-2 leading-relaxed"</p>
+<p class="p1"><span class="Apple-converted-space">               </span>data-en="Produced visual collateral, promotional videos, and exhibition layouts for diverse cultural heritage programmes across Sussex and the South Downs."</p>
+<p class="p1"><span class="Apple-converted-space">               </span>data-zh="負責英國東南區多元文化與文學組織之視覺設計、宣傳影音剪輯與展覽版面製作，協助推廣地方文化與自然保育計畫。"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>Produced visual collateral, promotional videos, and exhibition layouts for diverse cultural heritage programmes across Sussex and the South Downs.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Role 2 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="text-sm text-neutral-500 font-medium"&gt;2026 · Berlin, Germany&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="md:col-span-3"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3 class="text-lg font-semibold" data-en="Festival Volunteer — Berlin International Film Festival &amp; Taiwan Film Festival Berlin" data-zh="國際影展志工與活動執行 — 德國柏林影展 ＆ 柏林台灣影展"&gt;Festival Volunteer — Berlin International Film Festival &amp; Taiwan Film Festival Berlin&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-sm text-neutral-600 mt-2 leading-relaxed"</p>
+<p class="p1"><span class="Apple-converted-space">               </span>data-en="Supported international festival operations, on-site event coordination, and cross-cultural guest hospitality for major European cinema showcases."</p>
+<p class="p1"><span class="Apple-converted-space">               </span>data-zh="參與德國柏林影展（Berlinale）及 Impression Taiwan 主辦之 2026 柏林台灣影展，負責現場活動執行、國際影人接待與跨文化展演協調。"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>Supported international festival operations, on-site event coordination, and cross-cultural guest hospitality for major European cinema showcases.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Role 3 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="text-sm text-neutral-500 font-medium"&gt;Hunan, China&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="md:col-span-3"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3 class="text-lg font-semibold" data-en="Event &amp; Video Production Intern — Mango TV+ Large-Scale Events Center" data-zh="大型活動中心實習生 — 湖南衛視 芒果TV+"&gt;Event &amp; Video Production Intern — Mango TV+ Large-Scale Events Center&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-sm text-neutral-600 mt-2 leading-relaxed"</p>
+<p class="p1"><span class="Apple-converted-space">               </span>data-en="Assisted in large-scale broadcast event execution and cross-platform short-form video production for flagship entertainment programs."</p>
+<p class="p1"><span class="Apple-converted-space">               </span>data-zh="參與大型影視綜藝與晚會活動之策劃執行，協助跨平台短影音內容製作與現場統籌。"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>Assisted in large-scale broadcast event execution and cross-platform short-form video production for flagship entertainment programs.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- Role 4 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="grid grid-cols-1 md:grid-cols-4 gap-2 md:gap-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="text-sm text-neutral-500 font-medium"&gt;Taipei, Taiwan&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="md:col-span-3"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3 class="text-lg font-semibold" data-en="Editor-in-Chief, Station Manager &amp; Association President — Chinese Culture University" data-zh="四大校園媒體總負責人 ＆ 新聞系學會會長 — 中國文化大學"&gt;Editor-in-Chief, Station Manager &amp; Association President — Chinese Culture University&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-sm text-neutral-600 mt-2 leading-relaxed"</p>
+<p class="p1"><span class="Apple-converted-space">               </span>data-en="Served as Editor-in-Chief of the 62nd Cultural Weekly (5,000 weekly print run), Station Manager of the 28th Hwa-Kang Radio, 23rd JNN TV, Director of the 4th Jourmedia Center, and President of the 61st Journalism Student Association."</p>
+<p class="p1"><span class="Apple-converted-space">               </span>data-zh="歷任《文化一周》第62屆總編輯（管理每週 5,000 份印量）、華岡廣播電台第28屆台長、華岡電視台（JNN）第23屆台長、華岡融媒體第4屆台長，以及第61屆新聞系系學會會長。"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>Served as Editor-in-Chief of the 62nd Cultural Weekly (5,000 weekly print run), Station Manager of the 28th Hwa-Kang Radio, 23rd JNN TV, Director of the 4th Jourmedia Center, and President of the 61st Journalism Student Association.</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Education &amp; Skills 學歷與工具庫 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="education" class="py-16 border-b border-neutral-200"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="grid grid-cols-1 md:grid-cols-2 gap-12"&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- 學歷 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="flex items-baseline justify-between mb-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="text-2xl font-semibold tracking-tight" data-en="Education" data-zh="學歷背景"&gt;Education&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="text-xs text-neutral-400 uppercase tracking-widest"&gt;03 / ACADEMIC&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="space-y-6"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div class="text-xs text-neutral-500 mb-1"&gt;UK · Master of Arts&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;h3 class="font-semibold text-base" data-en="University of Sussex" data-zh="英國薩塞克斯大學 (University of Sussex)"&gt;University of Sussex&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;p class="text-sm text-neutral-600" data-en="MA in Culture and Creative Industries" data-zh="文化創意產業碩士 (MA in Culture and Creative Industries)"&gt;MA in Culture and Creative Industries&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;div class="text-xs text-neutral-500 mb-1"&gt;Taiwan · Bachelor of Arts (3+1 Dual Degree)&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;h3 class="font-semibold text-base" data-en="Chinese Culture University" data-zh="中國文化大學"&gt;Chinese Culture University&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;p class="text-sm text-neutral-600" data-en="BA in Journalism (with Exchange Studies at Cardiff University)" data-zh="新聞學系學士（3+1雙聯計畫，並曾赴英國卡迪夫大學 Cardiff University 交換）"&gt;BA in Journalism (with Exchange Studies at Cardiff University)&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;!-- 技能與工具 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="flex items-baseline justify-between mb-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="text-2xl font-semibold tracking-tight" data-en="Toolkit &amp; Capabilities" data-zh="專業技能與工具"&gt;Toolkit &amp; Capabilities&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;span class="text-xs text-neutral-400 uppercase tracking-widest"&gt;04 / STACK&lt;/span&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;div class="space-y-5 text-sm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;h4 class="font-medium text-neutral-900 mb-2" data-en="Media &amp; Design Production" data-zh="影音剪輯與視覺設計"&gt;Media &amp; Design Production&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;p class="text-neutral-600 leading-relaxed"&gt;Adobe Premiere Pro, CapCut, Figma, Canva, Dual-Language Subtitle Engineering (ASS/SRT), Print &amp; Exhibition Layout&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;h4 class="font-medium text-neutral-900 mb-2" data-en="AI &amp; Digital Workflow" data-zh="AI 協作與數位專案管理"&gt;AI &amp; Digital Workflow&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;p class="text-neutral-600 leading-relaxed"&gt;Gemini, Claude, ChatGPT, Grok, DeepSeek, Suno AI, Notion, GitHub&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;h4 class="font-medium text-neutral-900 mb-2" data-en="Core Competencies" data-zh="核心專業領域"&gt;Core Competencies&lt;/h4&gt;</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;p class="text-neutral-600 leading-relaxed"</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>data-en="Digital Marketing Strategy, Brand Incubation, Newsroom Operations, Public Relations Campaigning, Auto-ethnographic Research"</p>
+<p class="p1"><span class="Apple-converted-space">                 </span>data-zh="數位行銷策略、品牌孵化與包裝企劃、新聞編採與廣電製作、公關活動策展、質性與產業研究"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>Digital Marketing Strategy, Brand Incubation, Newsroom Operations, Public Relations Campaigning, Auto-ethnographic Research</p>
+<p class="p1"><span class="Apple-converted-space">              </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Contact 聯絡區 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="contact" class="pt-16 pb-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;div class="bg-black text-white rounded-3xl p-8 md:p-14 flex flex-col md:flex-row items-start md:items-center justify-between gap-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p class="text-xs uppercase tracking-widest text-neutral-400 mb-3"&gt;05 / NEXT STEPS&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;h2 class="text-3xl md:text-4xl font-semibold tracking-tight mb-3"</p>
+<p class="p1"><span class="Apple-converted-space">              </span>data-en="Let's build something meaningful."</p>
+<p class="p1"><span class="Apple-converted-space">              </span>data-zh="期待與你一起打造具影響力的作品。"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>Let's build something meaningful.</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;p class="text-neutral-400 text-sm md:text-base max-w-xl"</p>
+<p class="p1"><span class="Apple-converted-space">             </span>data-en="Feel free to reach out for full-time opportunities, freelance media production, or creative collaborations."</p>
+<p class="p1"><span class="Apple-converted-space">             </span>data-zh="無論是全職職缺、跨國媒體製作、品牌企劃或創意合作，都歡迎隨時與我聯繫。"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>Feel free to reach out for full-time opportunities, freelance media production, or creative collaborations.</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="flex flex-wrap gap-3"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;!-- 請將下方 href 替換為你的真實 Email 與 LinkedIn 網址 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;a href="mailto:your.email@example.com" class="px-6 py-3 bg-white text-black text-sm font-medium rounded-full hover:bg-neutral-200 transition-colors"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>Email Me</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;a href="https://www.linkedin.com/" target="_blank" class="px-6 py-3 border border-neutral-700 text-white text-sm font-medium rounded-full hover:border-white transition-colors"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>LinkedIn ↗</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;a href="https://github.com/" target="_blank" class="px-6 py-3 border border-neutral-700 text-white text-sm font-medium rounded-full hover:border-white transition-colors"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>GitHub ↗</p>
+<p class="p1"><span class="Apple-converted-space">          </span>&lt;/a&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/main&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;footer class="max-w-5xl mx-auto px-6 py-8 border-t border-neutral-200 text-xs text-neutral-400 flex flex-col sm:flex-row items-center justify-between gap-4"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p&gt;© 2026 Thomas Hsieh (謝鎰丞). Hosted on GitHub Pages.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;p data-en="Built with Minimalist Editorial Design." data-zh="採用極簡編輯風格打造。"&gt;Built with Minimalist Editorial Design.&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/footer&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 雙語切換腳本 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>let currentLang = 'en';</p>
+<p class="p1"><span class="Apple-converted-space">    </span>function toggleLang() {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>currentLang = currentLang === 'en' ? 'zh' : 'en';</p>
+<p class="p1"><span class="Apple-converted-space">      </span>document.querySelectorAll('[data-en]').forEach(el =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">        </span>el.textContent = el.getAttribute(`data-${currentLang}`);</p>
+<p class="p1"><span class="Apple-converted-space">      </span>});</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
